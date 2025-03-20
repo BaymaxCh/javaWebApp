@@ -17,5 +17,14 @@
   </dependencies>
   <build>
     <finalName>javaWebApp</finalName>
+  <!--added-->
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.2</version> <!-- 使用最新稳定版本 -->
+    </plugin>
+  </plugins>
+  <!--added-->
   </build>
 </project>
